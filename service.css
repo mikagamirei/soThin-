@@ -1,0 +1,66 @@
+
+.main_item {
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "areaA areaB areaC";
+    margin-bottom: 20px; 
+}
+
+#itemA {
+    background-color: rgb（63, 82, 126）;
+    grid-area: areaA;
+    transition:  0.5s;
+    margin: 10px;
+    border: solid 1px white;
+}
+
+#itemA:hover{
+    background-color: #7186B7; 
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    z-index: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+#itemB{
+    background-color: rgb（63, 82, 126）;
+    grid-area: areaB;
+    transition:  0.5s;
+    margin: 10px;
+    border: solid 1px white;
+}
+
+#itemB:hover{
+    background-color: #7186B7; 
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    z-index: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+#itemC{
+    background-color: rgb（63, 82, 126）;
+    grid-area: areaC;
+    transition:  0.5s;
+    margin: 10px;
+    border: solid 1px white;
+}
+
+#itemC:hover{
+    background-color: #7186B7; 
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    z-index: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.main_description{
+    margin: auto;
+    margin-bottom: 30px;
+}
